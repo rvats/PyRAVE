@@ -130,8 +130,7 @@ for coords in coords_left_half:
             if idx > display_all_until:
                 next_display += display_step
                 # Accelerate animation the further the
-                # iteration runs by increasing
-                # display_step
+i                # display_step
                 display_step += 10
             display_plots(rec_grating, rec_image, idx)
 
